@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <!-- The graphics perform only there -->
+        <div id="content"></div>
+
+        <!-- All scripts for the frontend are packager in this script -->
+        
+            <script>
+                window.graphics = {"bundle":"bug","page":"bug_esp","graphics":["logo","next"],"template":"<div {{#next}} class = \"thrill\" {{/next}}>\r\n    {{logo.channel}}\r\n    {{#next}}\r\n        Thrill ( thank to {{programs.TITLE_1}})\r\n    {{/next}}\r\n</div>\r\n{{#next}}\r\n    {{#programs}}\r\n        <div>\r\n            {{TITLE_1}}\r\n        </div>\r\n        <div>\r\n            {{LINE_1}}\r\n        </div>\r\n        {{#LINE_2}}\r\n        <div>\r\n            {{LINE_2}}\r\n        </div>\r\n            {{#LINE_3}}\r\n        <div>\r\n            {{LINE_3}}\r\n        </div>\r\n            {{/LINE_3}}\r\n        {{/LINE_2}}\r\n    {{/programs}}\r\n{{/next}}","css":".thrill {\r\n    color: red;\r\n}"}
+            </script>
+            <script src="/bundles/graphics/public/index.js"></script>
+    
+</body></html>

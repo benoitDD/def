@@ -1,0 +1,26 @@
+<div {{#next}} class = "thrill" {{/next}}>
+    {{logo.channel}}
+    {{#next}}
+        Thrill ( thank to {{programs.TITLE_1}})
+    {{/next}}
+</div>
+{{#next}}
+    {{#programs}}
+        <div>
+            {{TITLE_1}}
+        </div>
+        <div>
+            {{LINE_1}}
+        </div>
+        {{#LINE_2}}
+        <div>
+            {{LINE_2}}
+        </div>
+            {{#LINE_3}}
+        <div>
+            {{LINE_3}}
+        </div>
+            {{/LINE_3}}
+        {{/LINE_2}}
+    {{/programs}}
+{{/next}}

@@ -1,0 +1,33 @@
+{
+    "bug": {
+        "bug_esp": {
+            "logo": {
+                "channel": {
+                    "type": "text"
+                }
+            },
+            "next": {
+                "programs": {
+                    "type": "object",
+                    "shape": {
+                        "type": "object",
+                        "shape": {
+                            "LINE_1": {
+                                "type": "text"
+                            },
+                            "LINE_2": {
+                                "type": "text"
+                            },
+                            "LINE_3": {
+                                "type": "text"
+                            }
+                            ,"TITLE_1": {
+                                "type": "text"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
