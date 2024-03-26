@@ -28,7 +28,7 @@
 	},
 	"repository": "https://git.eurosport.tv/bdegorsas/toto.git",
 	"dependencies": {
-		"express": "4.17.1",
+		"express": "4.19.2",
 		"mustache": "3.0.1"
 	},
 	"devDependencies": {
